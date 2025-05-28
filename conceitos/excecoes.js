@@ -5,4 +5,6 @@ try {
     
 } catch (error) {
     console.log("Error", error.message)
+} finally {
+    console.log('Sempre serei executado.')
 }
