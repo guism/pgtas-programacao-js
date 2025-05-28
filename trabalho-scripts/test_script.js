@@ -1,4 +1,7 @@
 //Validando script Trabalho final Function verificarSePodeSerAdotado
+    
+    
+
     function verificarSePodeSerAdotado(idade, porte){
         let adotado = false
         if(idade == 1 && porte == 'M'){
