@@ -5,9 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "playwright test"
-    
+    "test": "mocha testes/trabalho-final.js"
   },
   "keywords": [],
   "author": "",
