@@ -23,6 +23,6 @@ function calcularRacaoDiaria(peso){
 
 function calcularEstoque(racaoDiaria,estoque){
 
-    let consumoDiario = peso * 30; 
-    return consumoDiario * 1000;
+    let resultado = Math.floor(estoque/racaoDiaria).toFixed(0)
+    return resultado  
 }
